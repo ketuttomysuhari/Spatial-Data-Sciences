@@ -1,0 +1,27 @@
+[
+  {
+    "notebook": "00_START_HERE.ipynb",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "notebook": "Week_05_Machine_Learning_Concepts.ipynb",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "notebook": "Week_07_Planning_and_Spatial_Model_Selection.ipynb",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "notebook": "Week_13_Cloud_Computing_and_Spatial_Assets.ipynb",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "notebook": "04_CAPSTONE_WebGIS.ipynb",
+    "passed": true,
+    "errors": []
+  }
+]

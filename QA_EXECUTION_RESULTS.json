@@ -1,0 +1,182 @@
+[
+  {
+    "file": "00_START_HERE.ipynb",
+    "status": "pass",
+    "cells": 1,
+    "stdout_tail": "Sc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nValidation passed: 144 grid cells, 864 clean cell-date observations.\nDates: 2025-01-01, 2025-02-01, 2025-03-01, 2025-04-01, 2025-05-01, 2025-06-01\nStart with Week_01 in the 01_Core_Labs folder.\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_01_Concepts_and_Geographic_Questions.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "observations.\nGrid: 144 Raw: 867 Unique: 864\n  cell_id  easting_m  northing_m sector\n0   C0000   797125.0    345125.0     SW\n1   C0001   797375.0    345125.0     SW\n2   C0002   797625.0    345125.0     SW\n3   C0003   797875.0    345125.0     SW\n4   C0004   798125.0    345125.0     SW\nMean °C: 34.35\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_02_Data_Analytics_and_the_Need.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "     facility_count  population  per_10000\nsector                                       \nNE                 3.0       20006       1.50\nNW                 6.0       16907       3.55\nSE                 7.0       19183       3.65\nSW                 8.0       16094       4.97\nMedian distance (m): 284.8\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_03_Statistical_Approach_to_EDA.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "b_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\n{'n': 144, 'mean': np.float64(34.34715972222222), 'median': np.float64(34.2135), 'sample_sd': np.float64(1.3788316614199823), 'IQR': 1.890500000000003}\nMissing canopy: 8\nPearson -0.9011612535624491\nSpearman -0.894558691280691\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_04_Spatial_EDA_and_Neighbourhoods.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nGlobal rook Moran I 0.803\nOne-sided permutation p: 0.001\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_05_Machine_Learning_Concepts.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nRidge MAE: 0.4971725109288296 Mean MAE: 0.27312345679012395\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_06_Big_Data_and_Efficient_Processing.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\ndate\n2025-01-01    30.499203\n2025-02-01    31.257322\n2025-03-01    32.045465\n2025-04-01    32.789406\n2025-05-01    33.605552\n2025-06-01    34.347160\ndtype: float64\nMax absolute difference: 0.0\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_07_Planning_and_Spatial_Model_Selection.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nMean mean MAE 0.871 sd 0.235\nRidge 0.1 mean MAE 0.385 sd 0.042\nRidge 1 mean MAE 0.385 sd 0.042\nRidge 10 mean MAE 0.389 sd 0.051\nSelected: Ridge 0.1\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_08_Modelling_and_Independent_Evaluation.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nSelected on development: Ridge α=0.1\nEast MAE 0.3665988873924777 RMSE 0.47337830718721685 Bias -0.10061490444800095 R² 0.5361072069964217\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_09_A_Spatial_Data_Warehouse.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "25-01-01  ...        31.281306      31.388471\n1     NW  2025-01-01  ...        29.264222      29.332659\n2     SE  2025-01-01  ...        31.670556      31.762036\n3     SW  2025-01-01  ...        29.760200      29.823779\n4     NE  2025-02-01  ...        32.017583      32.111232\n\n[5 rows x 6 columns]\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_10_Data_Mining_and_Spatial_Patterns.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "vation_m\ncluster                                           \n0              0.340            0.611       45.430\n1              0.491            0.480       45.450\n2              0.193            0.766       37.455\nLabels: cluster\n-1    10\n 0     5\n 1     3\n 2     3\n 3     3\nName: count, dtype: int64\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_11_Artificial_Intelligence_and_Human_Review.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "recall  f1-score   support\n\n           0       0.50      0.40      0.44        10\n           1       0.79      0.85      0.81        26\n\n    accuracy                           0.72        36\n   macro avg       0.64      0.62      0.63        36\nweighted avg       0.71      0.72      0.71        36\n\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_12_AI_Applications_in_Raster_and_3D_Data.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nThreshold selected on western columns: 0.53\nTP, FP, FN, TN: 671 160 141 2228\nIoU: 0.6903292181069959 Pixel accuracy: 0.9059375\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_13_Cloud_Computing_and_Spatial_Assets.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "_14_Weeks/data\nSynthetic teaching data: not field observations.\nSTAC Item: synthetic-june-2025\nDate: 2025-06-01T00:00:00Z\nRaster asset: thermal_june_cog.tif\nBBox lon/lat: [101.67202446557482, 3.117882560624911, 101.69906400872254, 3.1449242119910727]\nCRS: EPSG:32647 Grid: 12 12 Window shape: (5, 5)\n"
+  },
+  {
+    "file": "01_Core_Labs/Week_14_Cloud_Applications_and_the_Capstone.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "ector                        \nNE      35.14               17\nNW      33.14                0\nSE      35.58               19\nSW      33.53                0\nExported: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/01_Core_Labs/capstone_priority.geojson\nMap saved as capstone_webgis.html\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_01_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "e_14_Weeks/data\nSynthetic teaching data: not field observations.\n  cell_id  row  col\n0   C0000    0    0\n1   C0001    0    1\n2   C0002    0    2\n3   C0003    0    3\n4   C0004    0    4\nEasting range (m): 797125.0 799875.0\nNorthing range (m): 345125.0 347875.0\nRows: 867\nRepeated keys: 3\n62500 0.0625\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_02_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nsector\nNE    20006\nNW    16907\nSE    19183\nSW    16094\nName: population, dtype: int64\n500.0\n66.66666666666667 40.0\nCells: 144 facilities: 24\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_03_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "ta_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nlst_c      4\ncell_id    0\ndate       0\ndtype: int64\nMean: 28.0 median: 22.0\nn= 860 SD= 1.9088422288182587\n             canopy_frac     lst_c\ncanopy_frac     1.000000 -0.894559\nlst_c          -0.894559  1.000000\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_04_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\n[2 3 2 3 4 3 2 3 2]\n[4. 4. 4.]\nMoran I: 0.0\n[4 2 5 1 3]\n[1 2 3 5 4]\n[2 3 4 5 1]\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_05_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "ab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nBaseline MAE: 2.0\n[34.7159581]\nMAE 1.0 Bias 0.3333333333333333\n   canopy_frac  canopy_pct\n0       0.5503       55.03\n1       0.5963       59.63\n2       0.5137       51.37\n3       0.4922       49.22\n4       0.4408       44.08\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_06_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": ".257321678321674), '2025-03-01': np.float64(32.04546527777777), '2025-04-01': np.float64(32.78940559440559), '2025-05-01': np.float64(33.605552447552455), '2025-06-01': np.float64(34.34715972222222)}\n34.0\nBytes: 2000000 MiB: 1.9073486328125\n[[100.         200.        ]\n [141.42135624 100.        ]]\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_07_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nblock_id\n0_0    9\n0_1    9\n0_2    9\n0_3    9\n1_0    9\ndtype: int64\n108 36\nTest groups: [3]\nTest groups: [2]\nTest groups: [1]\nTest groups: [0]\nMean: 0.47500000000000003 SD: 0.06454972243679029\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_08_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nMAE 1.0\nRMSE 1.0\nBias 0.5\nR2: 0.8\nModel MAE: 1.0\nBaseline MAE: 2.0\n       count  mean\ngroup             \nA          2   1.0\nB          2   1.0\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_09_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "ta/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\n[('C001', 'NW')]\n(3, 2, 31.5)\n         date    n\n0  2025-01-01  143\n1  2025-02-01  143\n2  2025-03-01  144\n3  2025-04-01  143\n4  2025-05-01  143\n5  2025-06-01  144\nUnique fact grain verified\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_10_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\n[[-1.22 -1.07]\n [ 0.   -0.27]\n [ 1.22  1.34]]\n[0 0 1 1]\n[ 0  0  0 -1]\nSilhouette: 0.9116123260260199\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_11_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\n[0 1 0]\n[[2 0]\n [1 2]]\n1.0\n0.6666666666666666\n0.3 3\n0.5 2\n0.7 1\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_12_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "nt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nIoU: 0.5\nAccuracy: 0.8333333333333334\n[(0.3, np.float64(0.6666666666666666)), (0.5, np.float64(0.6666666666666666)), (0.7, np.float64(0.5))]\n[[ 7  8  9]\n [12 13 14]\n [17 18 19]] (3, 3)\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_13_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "Dataset folder: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nsynthetic-june-2025\n2025-06-01T00:00:00Z\nthermal_june_cog.tif\nEPSG:32647 12 12 1\nNoData: -9999.0\nWindow shape: (5, 5)\nShare read: 11.8 %\n"
+  },
+  {
+    "file": "02_Advanced_Experiments/Week_14_Advanced_Experiments.ipynb",
+    "status": "pass",
+    "cells": 5,
+    "stdout_tail": "ial_Data_Science_Colab_Complete_14_Weeks/data\nSynthetic teaching data: not field observations.\nQ75: 35.43025\nreview\n0    108\n1     36\nName: count, dtype: int64\nFeatures: 144\n        count    sum\nsector              \nNE         36  20006\nNW         36  16907\nSE         36  19183\nSW         36  16094\n"
+  },
+  {
+    "file": "04_CAPSTONE_WebGIS.ipynb",
+    "status": "pass",
+    "cells": 3,
+    "stdout_tail": "         \nNE           36     35.14       17\nNW           36     33.14        0\nSE           36     35.58       19\nSW           36     33.53        0\nSaved: /mnt/data/MSc_GIS_Spatial_Data_Science_Colab_Complete_14_Weeks/capstone_priority.geojson\nGeoJSON feature count: 144\nSaved capstone_webgis.html\n"
+  }
+]
